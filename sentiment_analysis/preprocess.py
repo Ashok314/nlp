@@ -153,9 +153,9 @@ def preprocess(cls_name):
                 f_test.write(input)
         else:
             #skip empty 
-            c +=1;
-    f_train.close();
-    f_test.close();
+            c +=1
+    f_train.close()
+    f_test.close()
     print("\nempty data skipped ", c ,"\n\n------------------------------\n")
     
     #remove duplicate via cmd line !? 

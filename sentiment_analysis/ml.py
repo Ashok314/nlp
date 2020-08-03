@@ -1,10 +1,25 @@
 import fasttext
-model = fasttext.train_supervised(input="train", lr=1.0, epoch=1000,wordNgrams=2,bucket=200000,dim=100, loss='ova')
-testparam=model.test("test",k=10)
-model.save_model("model.bin")
+import os
+
+hyper_params = {"lr": 0.225,
+    "epoch": 5000,
+    "wordNgrams": 2,
+    "dim": 20}  
+
+model = fasttext.train_supervised(input="train",**hyper_params)
+
+#results
+result=model.test("train")
+validation=model.test("test",k=2)
 
 
-print("validation params",testparam)
-#print(model.predict(""))
+# model.save_model("model.bin")
 
-print(model.predict("越後米つき"))
+# DISPLAY ACCURACY OF TRAINED MODEL
+text_line = str(hyper_params) + ",accuracy:" + str(result[1])  + ",validation:" + str(validation[1]) + '\n' 
+print(text_line)
+
+f_data= open("results", 'a+') 
+f_data.write(text_line)
+f_data.close()
+# print(model.predict("越後米つき"))
