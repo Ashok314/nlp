@@ -23,7 +23,15 @@ def normalize(s):
 
     s = re.sub('[˗֊‐‑‒–⁃⁻₋−]+', '-', s)  # normalize hyphens
     s = re.sub('[﹣－ｰ—―─━ー]+', 'ー', s)  # normalize choonpus
-    s = re.sub('[~∼∾〜〰～]', '', s)  # remove tildes
+    s = re.sub('[~∼∾〜〰～]', '', s) # remove tildes
+    #custom 
+    s = re.sub('Э', '', s) #strange char?!
+    s = re.sub('ߢ', '', s) #strange char?!
+    s = re.sub('ş', '', s) #strange char?!
+    s = re.sub('γ', '', s) #strange char?!
+    
+    s=re.sub('０-９Ａ-Ｚａ-ｚ｡-ﾟ','', s)
+
     s = s.translate(
         maketrans('!"#$%&\'()*+,-./:;<=>?@[¥]^_`{|}~｡､･｢｣',
               '！”＃＄％＆’（）＊＋，－．／：；＜＝＞？＠［￥］＾＿｀｛｜｝〜。、・「」'))
@@ -72,8 +80,8 @@ def remove_emoji(s):  #only specific type!!  #can be extended for all
     return s
 
 def get_sentences(text):
-    tagger = MeCab.Tagger("/home/ashok/Desktop/nlp/mecab_tagger/ja_profane_words.csv")
-    tagger.parse("")
+    #user dictionary is provides in /etc/mecabrc 
+    tagger = MeCab.Tagger('-r /etc/mecabrc -d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')   
     node = tagger.parseToNode(normalize(text))
     words = [] 
 
