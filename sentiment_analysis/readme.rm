@@ -1,4 +1,4 @@
 1. preprocess data [preprocess.py]
     1 a. dataset in data folder with each folder for each label
 2. train model  [ml.py]
-1.run main.py for profanity filter
+3.run main.py for profanity filter
