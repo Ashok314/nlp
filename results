@@ -21,3 +21,6 @@
 {'lr': 0.225, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9884495779653487,validation:0.3686244204018547
 {'lr': 0.225, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9884495779653487,validation:0.3686244204018547
 {'lr': 0.225, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9884495779653487,validation:0.3686244204018547
+{'lr': 0.225, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9884495779653487,validation:0.3686244204018547
+{'lr': 0.225, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9884495779653487,validation:0.3686244204018547
+{'lr': 0.225, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9884495779653487,validation:0.4482225656877898

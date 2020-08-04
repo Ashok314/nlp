@@ -1,1 +1,7 @@
-#main
+def main():
+    import filter
+
+
+if __name__ == "__main__":
+    main()
+
