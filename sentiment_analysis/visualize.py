@@ -74,7 +74,7 @@ for sentence in negative:
         jparse = jparse.next
 
 
-with open(path.join(d, 'all_profane_words.txt')) as f:
+with open(path.join(d, 'all_profane_words1')) as f:
     profane = f.readlines()
 
 tagger = MeCab.Tagger('-r /etc/mecabrc -d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')

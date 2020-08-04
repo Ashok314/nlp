@@ -29,6 +29,7 @@ def normalize(s):
     s = re.sub('ߢ', '', s) #strange char?!
     s = re.sub('ş', '', s) #strange char?!
     s = re.sub('γ', '', s) #strange char?!
+    s = re.sub('Г', '', s) #strange char?! 
     
     s=re.sub('０-９Ａ-Ｚａ-ｚ｡-ﾟ','', s)
 

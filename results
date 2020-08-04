@@ -1,14 +1,23 @@
-{'lr': 0.255, 'epoch': 50, 'wordNgrams': 2, 'dim': 10},accuracy:0.7588978185993112,validation:0.451784886416319
-{'lr': 0.255, 'epoch': 5, 'wordNgrams': 2, 'dim': 10},accuracy:0.7531572904707233,validation:0.45433472415391746
-{'lr': 0.5, 'epoch': 5, 'wordNgrams': 2, 'dim': 10},accuracy:0.7531572904707233,validation:0.45433472415391746
-{'lr': 0.5, 'epoch': 5, 'wordNgrams': 2, 'dim': 50},accuracy:0.7531572904707233,validation:0.45433472415391746
-{'lr': 0.5, 'epoch': 50, 'wordNgrams': 2, 'dim': 10},accuracy:0.7664425127111695,validation:0.45456652758460825
-{'lr': 0.5, 'epoch': 50, 'wordNgrams': 2, 'dim': 50},accuracy:0.7664425127111695,validation:0.45479833101529904
-{'lr': 0.255, 'epoch': 50, 'wordNgrams': 2, 'dim': 50},accuracy:0.762506150565852,validation:0.4524802967083913
-{'lr': 0.255, 'epoch': 500, 'wordNgrams': 2, 'dim': 50},accuracy:0.8755125471543382,validation:0.461984237366713
-{'lr': 0.255, 'epoch': 500, 'wordNgrams': 2, 'dim': 20},accuracy:0.8659996719698212,validation:0.45572554473806215
-{'lr': 0.255, 'epoch': 1000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9232409381663113,validation:0.45572554473806215
-{'lr': 0.5, 'epoch': 1000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9936034115138592,validation:0.461984237366713
-{'lr': 0.255, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9937674266032475,validation:0.45989800649049606
-{'lr': 0.002, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9937674266032475,validation:0.456884561891516
-autotune   Progress:  21.1% Trials:   21 Best score:  0.888271 ETA:   0h 3m56s
+
+
+
+	{'lr': 0.255, 'epoch': 50, 'wordNgrams': 2, 'dim': 10},accuracy:0.7588978185993112,validation:0.451784886416319
+	{'lr': 0.255, 'epoch': 5, 'wordNgrams': 2, 'dim': 10},accuracy:0.7531572904707233,validation:0.45433472415391746
+	{'lr': 0.5, 'epoch': 5, 'wordNgrams': 2, 'dim': 10},accuracy:0.7531572904707233,validation:0.45433472415391746
+	{'lr': 0.5, 'epoch': 5, 'wordNgrams': 2, 'dim': 50},accuracy:0.7531572904707233,validation:0.45433472415391746
+	{'lr': 0.5, 'epoch': 50, 'wordNgrams': 2, 'dim': 10},accuracy:0.7664425127111695,validation:0.45456652758460825
+	{'lr': 0.5, 'epoch': 50, 'wordNgrams': 2, 'dim': 50},accuracy:0.7664425127111695,validation:0.45479833101529904
+	{'lr': 0.255, 'epoch': 50, 'wordNgrams': 2, 'dim': 50},accuracy:0.762506150565852,validation:0.4524802967083913
+	{'lr': 0.255, 'epoch': 500, 'wordNgrams': 2, 'dim': 50},accuracy:0.8755125471543382,validation:0.461984237366713
+	{'lr': 0.255, 'epoch': 500, 'wordNgrams': 2, 'dim': 20},accuracy:0.8659996719698212,validation:0.45572554473806215
+	{'lr': 0.255, 'epoch': 1000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9232409381663113,validation:0.45572554473806215
+	{'lr': 0.5, 'epoch': 1000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9936034115138592,validation:0.461984237366713
+	{'lr': 0.255, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9937674266032475,validation:0.45989800649049606
+	{'lr': 0.002, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9937674266032475,validation:0.456884561891516
+	autotune   Progress:  21.1% Trials:   21 Best score:  0.888271 ETA:   0h 3m56s
+
+{'lr': 0.225, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9934221345173491,validation:0.45887546468401486
+{'lr': 0.225, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9884495779653487,validation:0.3686244204018547
+{'lr': 0.225, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9884495779653487,validation:0.3686244204018547
+{'lr': 0.225, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9884495779653487,validation:0.3686244204018547
+{'lr': 0.225, 'epoch': 5000, 'wordNgrams': 2, 'dim': 20},accuracy:0.9884495779653487,validation:0.3686244204018547
